@@ -288,10 +288,11 @@ section {
 .home-img img {
   position: absolute;
   bottom: 0;
-  right: 40px;
+  right: 1px;
   pointer-events: none;
-  max-width: 480px;
-  max-height: 100vh;
+  max-width: 380px;
+  max-height: 300vh;
+  bottom: 100px;
 }
 
 span {
@@ -636,11 +637,11 @@ span {
 
 @media (max-width: 1100px) {
   .home .profession-container .profession-box {
-    right: -15%;
+    right: 15%;
   }
 
   .home-img img {
-    max-width: 420px;
+    max-width: 42px;
   }
 }
 
@@ -662,7 +663,7 @@ span {
   }
 
   .home-img img {
-    max-width: 400px;
+    max-width: 100px;
   }
 }
 
